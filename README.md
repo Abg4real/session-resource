@@ -1,1 +1,1 @@
-# session-resource
+# session-resources
