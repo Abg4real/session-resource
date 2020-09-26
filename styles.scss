@@ -1,0 +1,115 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.card {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  text-align: left;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0px 0px 5px #cacaca;
+}
+.card-header {
+  border-radius: 10px 10px 0px 0px;
+  padding: 10px 10px;
+  color: white;
+  text-align: center;
+  background-color: #303030;
+  h2 {
+    font-size: 2.2rem;
+  }
+}
+.card-body {
+  padding: 19px;
+  label,
+  span {
+    font-size: 1.4rem;
+  }
+  input {
+    font-size: 1.4rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  #percentage {
+    margin-bottom: 2px;
+  }
+  button {
+    border: none;
+    display: block;
+    font-size: 2rem;
+    color: white;
+    background-color: #303030;
+    width: fit-content;
+    margin: 0px auto;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  button:hover {
+    transform: scale(1.1);
+  }
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.5);
+
+  .modal-content {
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    margin: 10% auto auto auto;
+    width: 400px;
+    height: 200px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+    animation-name: modalopen;
+    animation-duration: 0.5s;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      display: block;
+      font-size: 2rem;
+    }
+    button {
+      margin: 20px;
+      color: white;
+      background-color: #303030;
+      border: none;
+      font-size: 1.4rem;
+      padding: 10px;
+    }
+  }
+}
+
+@media only screen and (max-width: 515px) {
+  .modal {
+    .modal-content {
+      width: 100vw;
+    }
+  }
+}
+
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
