@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scribbles - Introduction to Web Development</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="heading">
+    <div class="left">
+      <span class="name">Scribbles</span>
+      <a href="https://www.linkedin.com/in/abhishek-ghadge/" class="link" id="headingLink" target="_blank">Abhishek
+        Ghadge</a>
+    </div>
+    <button id="theme" title="Change Theme"><i id="toggleIcon" class="far fa-moon"></i></button>
+  </div>
+  <div class="blog-content">
+    <h1 class="title">Introduction to Web Development</h1>
+    <img
+      src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+      class="image">
+    <h2 class="heading2">What is internet?</h2>
+    <p>The Internet (or internet)[a] is the global system of interconnected computer networks that uses the Internet
+      protocol suite (TCP/IP) to communicate between networks and devices. It is a network of networks that consists of
+      private, public, academic, business, and government networks of local to global scope, linked by a broad array of
+      electronic, wireless, and optical networking technologies. The Internet carries a vast range of information
+      resources and services, such as the inter-linked hypertext documents and applications of the World Wide Web (WWW),
+      electronic mail, telephony, and file sharing.</p>
+    <h2 class="heading2">How internet works?</h2>
+    <img class="howItWorksImage"
+      src="https://images.unsplash.com/photo-1518644730709-0835105d9daa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      alt="A person working on laptop" />
+    <p>When you opened your email, your email application sent a request to your email provider (for example, Gmail)
+      through your laptop’s Network Interface Card to your Wireless Access Point (WAP) using your local WiFi. The WAP
+      then sent the request through a wire to the local router.</p>
+
+    <p>
+      The local router took that request and sent it to another router, which then sent to another router, and another
+      router, all the way through a chain of routers until the data was transferred over one of the transatlantic
+      communication cables to the United States.
+    </p>
+
+    <p>
+      There, it ended up at a Google data center (because you use Gmail). Google then processed your request to get any
+      new emails that had come in since you last loaded your email. They packaged up your new, unread emails in a
+      digital package called a “response,” and sent that package back to the same address (your laptop) that requested
+      the updates. The response probably took different routes on the way back, but it went through the same mechanisms.
+    </p>
+
+    <p> The data was transferred from the Google data center through multiple lines and reached your home router/modem,
+      which made the data available over your home WiFi. Your laptop’s Network Interface Card received the response,
+      sent it to your email application, and then voilà—your new emails fill up your inbox! And that all happened in the
+      blink of an eye. It’s pretty amazing how the internet works, isn’t it? So the next
+      time someone asks, “what is the internet” or “how does the internet work?” hopefully you can use this simple
+      explanation to help them understand how this technology that’s so important to our modern daily life actually
+      works.</p>
+    <h2 class="heading2">Three core technologies of the web:</h2>
+    <ul>
+      <li>HTML - HyperText Transfer Protocol</li>
+      <li>CSS - Cascading Style Sheets</li>
+      <li>JavaScript</li>
+    </ul>
+    <h2>Thank you!</h2>
+  </div>
+  <div class="footer">
+    <h3>Subscribe To My Newsletter</h3>
+    <input type="email" placeholder="Enter Your Email" name="email" id="emailInput">
+    <button class="subscribe" id="subscribeBtn">Subscribe</button>
+    <a href="https://www.linkedin.com/in/abhishek-ghadge/"></a>
+    <p>&copy;Abhishek Ghadge</p>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>

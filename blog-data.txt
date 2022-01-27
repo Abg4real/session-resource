@@ -1,0 +1,29 @@
+Link tag for fontawesome:   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet"/>
+Link tag for font: <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+Link for blog image: https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80
+Blog Content:
+What is internet?
+The Internet (or internet) is the global system of interconnected computer networks that uses the Internet
+protocol suite (TCP/IP) to communicate between networks and devices. It is a network of networks that consists of
+private, public, academic, business, and government networks of local to global scope, linked by a broad array of
+electronic, wireless, and optical networking technologies. The Internet carries a vast range of information
+resources and services, such as the inter-linked hypertext documents and applications of the World Wide Web (WWW),
+electronic mail, telephony, and file sharing.
+How internet works?
+When you opened your email, your email application sent a request to your email provider (for example, Gmail)
+through your laptop’s Network Interface Card to your Wireless Access Point (WAP) using your local WiFi. The WAP
+then sent the request through a wire to the local router.
+The local router took that request and sent it to another router, which then sent to another router, and another
+router, all the way through a chain of routers until the data was transferred over one of the transatlantic
+communication cables to the United States.
+There, it ended up at a Google data center (because you use Gmail). Google then processed your request to get any
+new emails that had come in since you last loaded your email. They packaged up your new, unread emails in a
+digital package called a “response,” and sent that package back to the same address (your laptop) that requested
+the updates. The response probably took different routes on the way back, but it went through the same mechanisms.
+The data was transferred from the Google data center through multiple lines and reached your home router/modem,
+which made the data available over your home WiFi. Your laptop’s Network Interface Card received the response,
+sent it to your email application, and then voilà—your new emails fill up your inbox! And that all happened in the
+blink of an eye. It’s pretty amazing how the internet works, isn’t it? So the next
+time someone asks, “what is the internet” or “how does the internet work?” hopefully you can use this simple
+explanation to help them understand how this technology that’s so important to our modern daily life actually
+works.
